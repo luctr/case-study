@@ -2,37 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-    <style>
-        body{
-            background-image: url("https://images.alphacoders.com/265/265693.png");
-            background-size: 100%;
-            background-repeat: no-repeat;
-            width: 100vh;
-            height: 100%;
-        }
+    <title>Menu</title>
 
-        #name-1:hover{
-            color: red;
+    <link rel="stylesheet" href="test.css">
 
-        }
-        button:hover{
-            color: red;
-        }
-        #div1{
-            margin-left: 90%;
-            margin-top: 50%;
-            color: aqua;
-        }
 
-    </style>
-
-</head>
 <body>
-<div id="div1">
-       Họ và tên : <input id="name-1" type="text"> <br/>
-        <button type="submit" onclick="set()">Đăng nhập</button>
-    <script src="login.js"></script>
+<p onclick="point1()"></p>
+<audio id="nhacdung">
+    <source src="music/Am-thanh-tra-loi-dung-www_nhacchuongvui_com.mp3" type="audio/mp3">
+</audio>
+<audio id="nhacsai">
+    <source src="music/Am-thanh-Ban-tra-loi-sai-roi-www_nhacchuongvui_com.mp3" type="audio/mp3">
+</audio>
+<audio id='nhacnenwin'>
+    <source src="music/musicwin.mp3" type="audio/mp3">
+</audio>
+
+<div id="win">
+    <div class="modal" onclick="handleClose()">X</div>
+
 </div>
+<div id="main" align="center">
+    <b>
+            <span id="sp1">
+            </span>
+    </b>
+    <div class="div-1">
+        <div style="text-align: center;">
+            <img src="" id="img" width="450">
+        </div>
+
+    </div>
+    <div>
+        <input type="text" id="ip-1"><br/>
+        <button onclick="result()" id="kq">
+            Kết Quả
+        </button>
+    </div>
+    <div style="width: 50px; height: 50px; ">
+
+    </div>
+    <button id="sp" onclick="support()">
+        Trợ Giúp
+    </button>
+    <button onclick="reset()" class="cangiua">
+        Reset Game
+    </button>
+    <button onclick="next()" class="cangiua">
+        Bỏ Qua
+    </button>
+    <p id="text"></p>
+
+
+
+</div>
+<script src="Quiz.js"></script>
+<script src="game.js"></script>
+
 </body>
 </html>
