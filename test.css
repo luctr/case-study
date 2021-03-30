@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image: url("https://f16.photo.talk.zdn.vn/4409676104870541366/2d782a4baa21587f0130.jpg");
+    box-sizing: border-box;
+}
+#localblock{
+    display: none;
+}
+
+h1{
+    color: #00ff04;
+}
+#sp1{
+     position: absolute;
+     top: 3%;
+     left: 85%;
+ }
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 122px;
+    width: 100%;
+    height: 400px
+}
+#ip-1{
+    margin: 0 0 10px 0;
+    width: 210px;
+    height: 25px;
+}
+button:hover{
+    color: red;
+}
+#win{
+    background-image: url("https://f12.photo.talk.zdn.vn/1547444473878461587/5c57a6f8fe8d0cd3559c.jpg");
+    position:absolute;
+    width: 50%;
+    height: 55%;
+    left: 33%;
+    top: 15%;
+    display: block;
+    display: none;
+    background-repeat: no-repeat;
+}
+.modal:hover {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
